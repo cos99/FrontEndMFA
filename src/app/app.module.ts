@@ -21,6 +21,7 @@ import { DetailModalComponent } from './home/detail-modal/detail-modal.component
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { CartModalComponent } from './header/cart-modal/cart-modal.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +37,7 @@ import { CartModalComponent } from './header/cart-modal/cart-modal.component';
     DetailModalComponent,
     HeaderComponent,
     CartModalComponent,
+    LoginComponent,
   ],
   imports: [
     CommonModule,
