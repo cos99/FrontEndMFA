@@ -10,6 +10,7 @@ import { ModalDirective } from 'ngx-bootstrap/modal';
   templateUrl: './edit-product-modal.component.html',
   styleUrls: ['./edit-product-modal.component.css']
 })
+
 export class EditProductModalComponent {
   @ViewChild('editProductModal') modal: ModalDirective;
   @Output() change: EventEmitter<string> = new EventEmitter<string>();
@@ -64,8 +65,5 @@ export class EditProductModalComponent {
         });
   }
 
-  transformInNumberArray(string: string) {
-    return JSON.parse('[' + string + ']');
-  }
 
 }
