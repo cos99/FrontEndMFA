@@ -3,14 +3,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
-import { TermsComponent } from './terms/terms.component';
+import { LoginComponent } from './login/login.component';
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'add', component: AddComponent },
   { path: 'edit', component: EditComponent },
-  { path: 'terms', component: TermsComponent},
+  { path: 'login', component: LoginComponent},
   { path: 'contact', component: ContactComponent},
   { path: '**', component: HomeComponent },
 
