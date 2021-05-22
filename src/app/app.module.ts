@@ -10,9 +10,6 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AddComponent } from './add/add.component';
 import { EditComponent } from './edit/edit.component';
-import { EditAlbumModalComponent } from './edit/edit-album-modal/edit-album-modal.component';
-import { EditArtistModalComponent } from './edit/edit-artist-modal/edit-artist-modal.component';
-import { EditSongModalComponent } from './edit/edit-song-modal/edit-song-modal.component';
 import { EditProductModalComponent } from './edit/edit-product-modal/edit-product-modal.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { HomeComponent } from './home/home.component';
@@ -21,7 +18,7 @@ import { DetailModalComponent } from './home/detail-modal/detail-modal.component
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { CartModalComponent } from './header/cart-modal/cart-modal.component';
-import { LoginComponent } from './login/login.component';
+import { TermsComponent } from './terms/terms.component';
 import { ContactComponent } from './contact/contact.component';
 
 @NgModule({
@@ -29,16 +26,13 @@ import { ContactComponent } from './contact/contact.component';
     AppComponent,
     AddComponent,
     EditComponent,
-    EditAlbumModalComponent,
-    EditArtistModalComponent,
-    EditSongModalComponent,
     EditProductModalComponent,
     HomeComponent,
     SearchPipe,
     DetailModalComponent,
     HeaderComponent,
     CartModalComponent,
-    LoginComponent,
+    TermsComponent,
     ContactComponent,
     
   ],
